@@ -1,0 +1,548 @@
+[
+    {
+        "productName": "Wireless Bluetooth Headphones",
+        "productImage": "https://extremegadgets.com.bd/wp-content/uploads/2024/03/hoco-esd15-wireless-bluetooth-headphones-3.jpg",
+        "description": "High-quality wireless Bluetooth headphones with noise cancellation.",
+        "price": 79.99,
+        "category": "Electronics",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "15/08/2024",
+            "time": "02:23 PM"
+        },
+        "brandName": "SoundMagic"
+    },
+    {
+        "productName": "Smart LED TV",
+        "productImage": "https://www.gadstyle.com/wp-content/uploads/2022/04/oneplus-32y1-32-inch-hd-smart-led-tv-1.jpg",
+        "description": "50-inch 4K Ultra HD Smart LED TV with HDR and Alexa compatibility.",
+        "price": 499.99,
+        "category": "Home Appliances",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "15/08/2024",
+            "time": "09:45 AM"
+        },
+        "brandName": "VisionElectro"
+    },
+    {
+        "productName": "Gaming Laptop",
+        "productImage": "https://computermania-bd.b-cdn.net/wp-content/uploads/MSI-VECTOR-5.jpg",
+        "description": "High-performance gaming laptop with NVIDIA RTX 3060 and 16GB RAM.",
+        "price": 1199.99,
+        "category": "Computers",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "15/08/2024",
+            "time": "12:30 PM"
+        },
+        "brandName": "GamePro"
+    },
+    {
+        "productName": "Fitness Tracker",
+        "productImage": "https://cdn.outsideonline.com/wp-content/uploads/2023/10/fitness-tracker-1.jpg",
+        "description": "Waterproof fitness tracker with heart rate monitor and GPS.",
+        "price": 49.99,
+        "category": "Wearables",
+        "ratings": 4.3,
+        "productCreationDateTime": {
+            "date": "15/08/2024",
+            "time": "08:10 AM"
+        },
+        "brandName": "FitWell"
+    },
+    {
+        "productName": "Portable Power Bank",
+        "productImage": "https://media.wired.com/photos/6504b2a1afe02332db973557/master/w_960,c_limit/Ugreen_Power_Bank-SOURCE-Ugreen-Gear.jpg",
+        "description": "10,000mAh portable power bank with dual USB output.",
+        "price": 29.99,
+        "category": "Accessories",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "15/08/2024",
+            "time": "11:15 AM"
+        },
+        "brandName": "ChargeUp"
+    },
+    {
+        "productName": "4K Action Camera",
+        "productImage": "https://cdn.bdstall.com/product-image/giant_138929.jpg",
+        "description": "Compact 4K action camera with waterproof housing and image stabilization.",
+        "price": 99.99,
+        "category": "Cameras",
+        "ratings": 4.4,
+        "productCreationDateTime": {
+            "date": "16/08/2024",
+            "time": "10:30 AM"
+        },
+        "brandName": "ActionPro"
+    },
+    {
+        "productName": "Smartwatch",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx5P_YhjYQCsH3ZtSCxfQxGX4BVZbu0Y_jpg&s",
+        "description": "Smartwatch with heart rate monitoring, GPS, and fitness tracking.",
+        "price": 149.99,
+        "category": "Wearables",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "16/08/2024",
+            "time": "11:45 AM"
+        },
+        "brandName": "TimeTech"
+    },
+    {
+        "productName": "Electric Toothbrush",
+        "productImage": "https://adminapi.applegadgetsbd.com/storage/media/large/ENCHEN-Aurora-T+-Sonic-Electric-Toothbrush-White-9125.jpg",
+        "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+        "price": 39.99,
+        "category": "Personal Care",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "16/08/2024",
+            "time": "07:20 AM"
+        },
+        "brandName": "BrightSmile"
+    },
+    {
+        "productName": "Noise Cancelling Earbuds",
+        "productImage": "https://cdn.mos.cms.futurecdn.net/A4e5rb4dmApxTvUxDfd2bW-320-80.jpg",
+        "description": "Wireless noise-cancelling earbuds with charging case.",
+        "price": 89.99,
+        "category": "Electronics",
+        "ratings": 4.4,
+        "productCreationDateTime": {
+            "date": "16/08/2024",
+            "time": "02:15 PM"
+        },
+        "brandName": "SoundCore"
+    },
+    {
+        "productName": "Portable Blender",
+        "productImage": "https://static-01.daraz.com.bd/p/d26da86fa9d7567869711f096a21ea0b.jpg",
+        "description": "Portable blender for smoothies and shakes with USB charging.",
+        "price": 24.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "16/08/2024",
+            "time": "08:40 AM"
+        },
+        "brandName": "BlendPro"
+    },
+    {
+        "productName": "Smart Doorbell",
+        "productImage": "https://gadgetbreeze.com.bd/wp-content/uploads/2024/02/Xiaomi-Smart-Doorbell-3.jpg",
+        "description": "Smart video doorbell with motion detection and two-way audio.",
+        "price": 149.99,
+        "category": "Home Security",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "17/08/2024",
+            "time": "11:30 AM"
+        },
+        "brandName": "SecureHome"
+    },
+    {
+        "productName": "Wireless Charger",
+        "productImage": "https://istatic.ifixit.com.bd/uploads/2023-0-31/anker-powerwave-select-magnetic-wireless-charging-pad.jpg",
+        "description": "Fast wireless charger with Qi certification for smartphones.",
+        "price": 19.99,
+        "category": "Accessories",
+        "ratings": 4.3,
+        "productCreationDateTime": {
+            "date": "17/08/2024",
+            "time": "10:15 AM"
+        },
+        "brandName": "ChargeX"
+    },
+    {
+        "productName": "Bluetooth Speaker",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzm330_QXVLpQJnT6jKW3ixSYYI9Vka9t6Q&s",
+        "description": "Portable Bluetooth speaker with 12 hours of playtime and deep bass.",
+        "price": 59.99,
+        "category": "Audio",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "17/08/2024",
+            "time": "01:00 PM"
+        },
+        "brandName": "BassBoom"
+    },
+    {
+        "productName": "Instant Pot",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvJVk51-bjVBcTrQFIU_TheQ8JZigWU-VdQg&s",
+        "description": "6-quart multi-use programmable pressure cooker with 14 built-in smart programs.",
+        "price": 89.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "17/08/2024",
+            "time": "09:50 AM"
+        },
+        "brandName": "QuickCook"
+    },
+    {
+        "productName": "Air Purifier",
+        "productImage": "https://smartairfilters.com/wordpress/wp-content/uploads/sites/10/2021/12/qt-air-purifier-front-angle.jpg",
+        "description": "HEPA air purifier with real-time air quality monitoring.",
+        "price": 129.99,
+        "category": "Home Appliances",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "17/08/2024",
+            "time": "03:10 PM"
+        },
+        "brandName": "PureAir"
+    },
+    {
+        "productName": "Electric Kettle",
+        "productImage": "https://www.infinitybd.com/image/cache/catalog/electric-kettle/noah-electric-kettle-1.8l-500x500.jpg",
+        "description": "1.7-liter stainless steel electric kettle with auto shut-off.",
+        "price": 34.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "18/08/2024",
+            "time": "08:00 AM"
+        },
+        "brandName": "HotBrew"
+    },
+    {
+        "productName": "Smart Thermostat",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYgJF_tkoYUvPrAbZsxXJMfcQuWCBKwLwlOg&s",
+        "description": "Wi-Fi enabled smart thermostat with energy-saving features.",
+        "price": 199.99,
+        "category": "Home Automation",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "18/08/2024",
+            "time": "11:20 AM"
+        },
+        "brandName": "EcoTemp"
+    },
+    {
+        "productName": "Robot Vacuum Cleaner",
+        "productImage": "https://cdn.thewirecutter.com/wp-content/media/2024/01/robotvacuums-2048px-mielerx3top.jpg?auto=webp&quality=75&width=1024",
+        "description": "Automatic robot vacuum cleaner with app control and smart mapping.",
+        "price": 249.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "18/08/2024",
+            "time": "02:30 PM"
+        },
+        "brandName": "CleanBot"
+    },
+    {
+        "productName": "Portable Projector",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/projector/xiaomi/wanbo-t4/wanbo-t4-01-500x500.jpg",
+        "description": "Compact portable projector with 1080p resolution and HDMI input.",
+        "price": 99.99,
+        "category": "Electronics",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "18/08/2024",
+            "time": "01:10 PM"
+        },
+        "brandName": "BrightView"
+    },
+    {
+        "productName": "Smart Light Bulbs",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEBojry_8LOiiU7VlFPvbr7EqQzEBvx27cFA&s",
+        "description": "Set of 4 smart LED light bulbs with app control and voice assistant compatibility.",
+        "price": 49.99,
+        "category": "Home Automation",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "18/08/2024",
+            "time": "09:30 AM"
+        },
+        "brandName": "LightUp"
+    },
+    {
+        "productName": "Smart Scale",
+        "productImage": "https://www.garmin.pk/images/product_gallery/1602756633_b1.jpg",
+        "description": "Bluetooth smart scale with body composition analysis.",
+        "price": 29.99,
+        "category": "Health",
+        "ratings": 4.4,
+        "productCreationDateTime": {
+            "date": "19/08/2024",
+            "time": "07:00 AM"
+        },
+        "brandName": "FitTrack"
+    },
+    {
+        "productName": "Home Security Camera",
+        "productImage": "https://extremegadgets.com.bd/wp-content/uploads/2022/12/mi-360-1080p-wifi-smart-security-camera-1000x1000-2.webp",
+        "description": "1080p HD indoor/outdoor security camera with night vision and motion detection.",
+        "price": 79.99,
+        "category": "Home Security",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "19/08/2024",
+            "time": "11:45 AM"
+        },
+        "brandName": "WatchGuard"
+    },
+    {
+        "productName": "Smart Plug",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmvlH68qIAZKBfEodOaRwQf4JjmIiddrU-2w&s",
+        "description": "Smart plug with voice control and energy monitoring.",
+        "price": 14.99,
+        "category": "Home Automation",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "19/08/2024",
+            "time": "10:10 AM"
+        },
+        "brandName": "PlugSmart"
+    },
+    {
+        "productName": "Electric Scooter",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOEQIx4tKiSLKkRitI2ZLrLFsRu8Qv9IFHw&s",
+        "description": "Foldable electric scooter with 25km range and LED display.",
+        "price": 299.99,
+        "category": "Outdoor",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "19/08/2024",
+            "time": "01:40 PM"
+        },
+        "brandName": "RideOn"
+    },
+    {
+        "productName": "Smart Refrigerator",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUP_E68_8BKIk_QD7JwzwDOzxIg4dvnvCYkw&s",
+        "description": "Smart refrigerator with touchscreen and Wi-Fi connectivity.",
+        "price": 1199.99,
+        "category": "Home Appliances",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "20/08/2024",
+            "time": "09:00 AM"
+        },
+        "brandName": "CoolTech"
+    },
+    {
+        "productName": "Wireless Mouse",
+        "productImage": "https://ariksoft.com.bd/wp-content/uploads/2022/11/Logitech-B175-Plug-and-play-Wireless-Plus-Comfort-Mouse.jpg.webp",
+        "description": "Ergonomic wireless mouse with adjustable DPI and silent clicking.",
+        "price": 19.99,
+        "category": "Computers",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "20/08/2024",
+            "time": "10:20 AM"
+        },
+        "brandName": "ClickPro"
+    },
+    {
+        "productName": "Gaming Monitor",
+        "productImage": "https://images-cdn.ubuy.co.in/5G761FS-dell-curved-gaming-monitor-27-inch.jpg",
+        "description": "27-inch gaming monitor with 144Hz refresh rate and 1ms response time.",
+        "price": 249.99,
+        "category": "Computers",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "20/08/2024",
+            "time": "11:15 AM"
+        },
+        "brandName": "VisionGamer"
+    },
+    {
+        "productName": "Electric Grill",
+        "productImage": "https://d2j6dbq0eux0bg.cloudfront.net/images/28679550/3690843323.jpg",
+        "description": "Indoor electric grill with non-stick plates and adjustable temperature control.",
+        "price": 59.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "20/08/2024",
+            "time": "12:45 PM"
+        },
+        "brandName": "GrillMaster"
+    },
+    {
+        "productName": "Noise Cancelling Headphones",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmyAMeNp_YDoEeLMfpacx4dL1yytFvhP61BA&s",
+        "description": "Over-ear noise cancelling headphones with 30-hour battery life.",
+        "price": 199.99,
+        "category": "Audio",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "20/08/2024",
+            "time": "02:10 PM"
+        },
+        "brandName": "QuietSound"
+    },
+    {
+        "productName": "Air Fryer",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHfaZuepNNn5KbsWtRSFzLOmmhQo0NU6HdSw&s",
+        "description": "4-quart digital air fryer with touch screen and 8 preset cooking modes.",
+        "price": 89.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "21/08/2024",
+            "time": "11:00 AM"
+        },
+        "brandName": "CrispCook"
+    },
+    {
+        "productName": "Smart Ceiling Fan",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLyTtgD3TXYp5F80aGZ-TSB0wqac8c4AE2OA&s",
+        "description": "Smart ceiling fan with voice control and LED light.",
+        "price": 149.99,
+        "category": "Home Automation",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "21/08/2024",
+            "time": "01:20 PM"
+        },
+        "brandName": "BreezeControl"
+    },
+    {
+        "productName": "Cordless Vacuum Cleaner",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRcP7lktbaxIGqjd7ypkPcup64XOUrTbejw&s",
+        "description": "Cordless vacuum cleaner with powerful suction and long battery life.",
+        "price": 129.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "21/08/2024",
+            "time": "09:50 AM"
+        },
+        "brandName": "CleanSweep"
+    },
+    {
+        "productName": "Smart Watch",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/smart-watch/kieslect/ks-pro/ks-pro-black-01-500x500.webp",
+        "description": "Smartwatch with fitness tracking, heart rate monitor, and GPS.",
+        "price": 179.99,
+        "category": "Wearables",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "21/08/2024",
+            "time": "02:40 PM"
+        },
+        "brandName": "FitTrack"
+    },
+    {
+        "productName": "Laptop Backpack",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/laptop-accessories/backpack/wiwu/minimalist-backpack/minimalist-backpack-01-500x500.webp",
+        "description": "Water-resistant laptop backpack with USB charging port.",
+        "price": 39.99,
+        "category": "Accessories",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "21/08/2024",
+            "time": "10:30 AM"
+        },
+        "brandName": "UrbanTech"
+    },
+    {
+        "productName": "Portable Coffee Maker",
+        "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpm1fZyETgmQQ_x37ctOzndX1RY3KeG4PUg&s",
+        "description": "Portable coffee maker with one-touch brewing and reusable filter.",
+        "price": 29.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "22/08/2024",
+            "time": "08:10 AM"
+        },
+        "brandName": "QuickBrew"
+    },
+    {
+        "productName": "Smart Lock",
+        "productImage": "https://www.startech.com.bd/image/cache/catalog/smart%20lock/sx-718tt/smartx-sx-718tt-01-500x500.jpg",
+        "description": "Smart lock with keyless entry and remote access via smartphone.",
+        "price": 149.99,
+        "category": "Home Security",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "22/08/2024",
+            "time": "10:15 AM"
+        },
+        "brandName": "SecureHome"
+    },
+    {
+        "productName": "Bluetooth Speaker",
+        "productImage": "https://m.media-amazon.com/images/I/71347dxhUIL._AC_SL1500_.jpg",
+        "description": "Portable Bluetooth speaker with 360-degree sound and water resistance.",
+        "price": 49.99,
+        "category": "Audio",
+        "ratings": 4.5,
+        "productCreationDateTime": {
+            "date": "22/08/2024",
+            "time": "09:45 AM"
+        },
+        "brandName": "SoundWave"
+    },
+    {
+        "productName": "Home Theater System",
+        "productImage": "https://gis.com.bd/wp-content/uploads/2020/10/1920-JPG-LS650_CC_015_CMYK.jpg",
+        "description": "5.1 channel home theater system with wireless rear speakers and subwoofer.",
+        "price": 299.99,
+        "category": "Electronics",
+        "ratings": 4.8,
+        "productCreationDateTime": {
+            "date": "22/08/2024",
+            "time": "12:20 PM"
+        },
+        "brandName": "CineSound"
+    },
+    {
+        "productName": "Portable Air Conditioner",
+        "productImage": "https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/how-portable-air-conditioners-work-hero.jpg",
+        "description": "Portable air conditioner with remote control and 3 cooling modes.",
+        "price": 199.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "23/08/2024",
+            "time": "11:00 AM"
+        },
+        "brandName": "CoolBreeze"
+    },
+    {
+        "productName": "Electric Kettle",
+        "productImage": "https://media.e-valy.com/cms/products/images/be1c3ac3-d920-4dc8-989f-0a7df3453c98",
+        "description": "Electric kettle with quick boiling and auto shut-off feature.",
+        "price": 29.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.4,
+        "productCreationDateTime": {
+            "date": "23/08/2024",
+            "time": "09:10 AM"
+        },
+        "brandName": "BoilEasy"
+    },
+    {
+        "productName": "Smart Thermostat",
+        "productImage": "https://images-cdn.ubuy.co.in/636e4d3b65414157ac39e872-google-nest-learning-thermostat.jpg",
+        "description": "Smart thermostat with app control and energy-saving features.",
+        "price": 129.99,
+        "category": "Home Automation",
+        "ratings": 4.7,
+        "productCreationDateTime": {
+            "date": "23/08/2024",
+            "time": "01:30 PM"
+        },
+        "brandName": "ThermoSmart"
+    },
+    {
+        "productName": "Air Purifier",
+        "productImage": "https://www.shopz.com.bd/wp-content/uploads/2022/01/MOMAX-Pure-Go-Portable-Smart-Car-Air-Purifier-1.jpg",
+        "description": "Air purifier with HEPA filter and quiet operation.",
+        "price": 99.99,
+        "category": "Health",
+        "ratings": 4.6,
+        "productCreationDateTime": {
+            "date": "23/08/2024",
+            "time": "02:40 PM"
+        },
+        "brandName": "PureAir"
+    }
+]

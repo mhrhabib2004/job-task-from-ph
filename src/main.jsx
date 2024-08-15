@@ -10,12 +10,18 @@ import Root from './Components/Root/Root';
 import Login from './Components/Login/Login';
 import AuthProvaider from './Components/AuthProvaider/AuthProvaider';
 import Register from './Components/Register/Register';
+import Home from './Components/Home/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
     children: [
+      {
+        path:"/",
+        element:<Home></Home>,
+        loader: ()=>fetch(`${import.meta.env.VITE_LINK}/products`),
+      },
       {
       path:"/login",
       element:<Login></Login>
