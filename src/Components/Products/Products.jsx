@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import Productcard from "./productcard";
 
 const Products = () => {
-    const [product, setProduct] = useState([]); // Products state
-    const [currentPage, setCurrentPage] = useState(1); // Pagination state
-    const [totalPages, setTotalPages] = useState(0); // Total pages state
-    const [sortBy, setSortBy] = useState('date'); // Sort by field
-    const [sortOrder, setSortOrder] = useState('desc'); // Sort order (default: newest first)
-    const [searchTerm, setSearchTerm] = useState(''); // Search term state
+    const [product, setProduct] = useState([]); 
+    const [currentPage, setCurrentPage] = useState(1); 
+    const [totalPages, setTotalPages] = useState(0); 
+    const [sortBy, setSortBy] = useState('date'); 
+    const [sortOrder, setSortOrder] = useState('desc'); 
+    const [searchTerm, setSearchTerm] = useState(''); 
 
     // Function to fetch products with pagination, sorting, and search
     const fetchProducts = (page = 1, sortBy = 'date', sortOrder = 'desc', searchTerm = '') => {
@@ -44,7 +44,7 @@ const Products = () => {
         const [sortField, order] = e.target.value.split('-');
         setSortBy(sortField);
         setSortOrder(order);
-        fetchProducts(1, sortField, order, searchTerm); // Reset to page 1 after sorting
+        fetchProducts(1, sortField, order, searchTerm); 
     };
 
     // Handle search input change
@@ -54,13 +54,13 @@ const Products = () => {
 
     // Handle search button click
     const handleSearch = () => {
-        fetchProducts(1, sortBy, sortOrder, searchTerm); // Fetch products based on search term
+        fetchProducts(1, sortBy, sortOrder, searchTerm); 
     };
 
     // Handle reset button click
     const handleReset = () => {
-        setSearchTerm(''); // Clear search term
-        fetchProducts(1, sortBy, sortOrder, ''); // Reset to original product list
+        setSearchTerm(''); 
+        fetchProducts(1, sortBy, sortOrder, ''); 
     };
 
     return (
