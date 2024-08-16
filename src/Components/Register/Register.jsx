@@ -49,7 +49,7 @@ const Register = () => {
                 updateUserProfile(name, photo)
                     .then(() => {
                         console.log(result.user)
-                        Swal({
+                        Swal.fire({
                             title: "Welcome",
                             text: "You are registration completed",
                             icon: "success",
@@ -63,7 +63,7 @@ const Register = () => {
 
             })
             .catch(error => {
-                Swal({
+                Swal.fire({
                     title: "opps",
                     text: "You already registered please login",
                     icon: "warning",

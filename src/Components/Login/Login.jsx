@@ -1,6 +1,6 @@
 import { Link,useLocation,useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
-import { FaGoogle,FaGithub, FaEyeSlash } from "react-icons/fa";
+import { FaGoogle, FaEyeSlash } from "react-icons/fa";
 
 import { FaEye } from "react-icons/fa6";
 import { AuthContext } from "../AuthProvaider/AuthProvaider";
@@ -11,7 +11,7 @@ import auth from "../../firebase.Config";
 
 
 const Login = () => {
-    const { signIn,provider,gitProvider,loading } = useContext(AuthContext);
+    const { signIn,provider,loading } = useContext(AuthContext);
     const [showPassword,setshowpassword]=useState(false);
 
     const location= useLocation();
@@ -32,7 +32,7 @@ const Login = () => {
         signIn(email, password)
             .then(result=>{
                 console.log(result.user)
-                Swal({
+                Swal.fire({
                     title: "Welcome",
                     text: "You Loged in SuCCessfullY",
                     icon: "success",
@@ -43,7 +43,7 @@ const Login = () => {
                 navigate(location?.state ? location.state : "/");
             })
             .catch(error =>{
-                Swal({
+                Swal.fire({
                     title: "opps",
                     text: "Your Email or password worng ",
                     icon: "warning",

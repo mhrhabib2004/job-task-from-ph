@@ -11,7 +11,7 @@ const Navbar = () => {
     const handelSingout = () => {
         logOut()
             .then(() => {
-                Swal({
+                Swal.fire({
                     title: "Welcome",
                     text: "Your Log out successs",
                     icon: "success",
