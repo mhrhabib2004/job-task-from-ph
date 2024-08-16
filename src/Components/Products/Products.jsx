@@ -20,7 +20,7 @@ const Products = () => {
             });
     };
 
-    // Fetch products when page, sort, or search term changes
+    // sort, or search term changes
     useEffect(() => {
         fetchProducts(currentPage, sortBy, sortOrder, searchTerm);
     }, [currentPage, sortBy, sortOrder, searchTerm]);
