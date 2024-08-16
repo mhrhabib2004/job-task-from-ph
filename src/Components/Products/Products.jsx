@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Productcard from "./productcard";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 const Products = () => {
     const [product, setProduct] = useState([]); 
@@ -66,17 +68,17 @@ const Products = () => {
     return (
         <div>
             {/* Search Input */}
-            <div className="flex justify-end mb-4">
+            <div className="flex justify-center mb-4">
                 <input
                     type="text"
                     onChange={handleSearchChange}
                     value={searchTerm}
                     placeholder="Search by product name"
-                    className="p-2 border rounded w-full max-w-xs mr-4"
+                    className="p-2 border input-bordered input-secondary rounded w-full max-w-xs mr-4"
                 />
                 <button 
                     onClick={handleSearch} 
-                    className="p-2 bg-blue-500 text-white rounded mr-2"
+                    className="mr-2 btn btn-secondary"
                 >
                     Search
                 </button>
@@ -89,9 +91,9 @@ const Products = () => {
             </div>
 
             {/* Sort Controls */}
-            <div className="flex justify-end mb-4">
-                <select onChange={handleSortChange} className="p-2 border rounded">
-                   
+            <div className="flex justify-end md:mr-10 mb-4">
+                <select onChange={handleSortChange} className="select select-primary  max-w-xs">
+                <option disabled selected>Sort By</option>
                     <option value="date-desc">Newest First</option>
                     <option value="price-asc">Low to High</option>
                     <option value="price-desc">High to Low</option>
@@ -106,20 +108,22 @@ const Products = () => {
             </div>
 
             {/* Pagination Controls */}
-            <div className="flex justify-center mt-4">
+            <div className="flex  justify-around mt-4">
                 <button 
                     onClick={handlePreviousPage} 
                     disabled={currentPage === 1}
-                    className="px-4 py-2 bg-gray-300 text-gray-800 rounded mr-2"
+                    className="btn btn-success text-white"
                 >
+                    <FaArrowLeftLong />
                     Previous
                 </button>
                 <span className="px-4 py-2 bg-gray-100 text-gray-800 rounded">{currentPage} / {totalPages}</span>
                 <button 
                     onClick={handleNextPage} 
                     disabled={currentPage === totalPages}
-                    className="px-4 py-2 bg-gray-300 text-gray-800 rounded ml-2"
+                    className="btn btn-success text-white"
                 >
+                    <FaLongArrowAltRight />
                     Next
                 </button>
             </div>
