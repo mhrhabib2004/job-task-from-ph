@@ -5,9 +5,11 @@ const Products = () => {
     const [product, setProduct] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(0);
+    const [sortBy, setSortBy] = useState('date');
+    const [sortOrder, setSortOrder] = useState('desc'); // Default to newest first
 
-    const fetchProducts = (page = 1) => {
-        fetch(`${import.meta.env.VITE_LINK}/products?page=${page}&limit=10`)
+    const fetchProducts = (page = 1, sortBy = 'date', sortOrder = 'desc') => {
+        fetch(`${import.meta.env.VITE_LINK}/products?page=${page}&limit=10&sortBy=${sortBy}&sortOrder=${sortOrder}`)
             .then(res => res.json())
             .then(data => {
                 setProduct(data.products);
@@ -17,8 +19,8 @@ const Products = () => {
     };
 
     useEffect(() => {
-        fetchProducts(currentPage);
-    }, [currentPage]);
+        fetchProducts(currentPage, sortBy, sortOrder);
+    }, [currentPage, sortBy, sortOrder]);
 
     const handleNextPage = () => {
         if (currentPage < totalPages) {
@@ -32,8 +34,24 @@ const Products = () => {
         }
     };
 
+    const handleSortChange = (e) => {
+        const [sortField, order] = e.target.value.split('-');
+        setSortBy(sortField);
+        setSortOrder(order);
+        fetchProducts(1, sortField, order); // Reset to page 1 after sorting
+    };
+
     return (
         <div>
+            {/* Sort Controls */}
+            <div className="flex justify-end mb-4">
+                <select onChange={handleSortChange} className="p-2 border rounded">
+                    <option value="date-desc">Newest First</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                </select>
+            </div>
+
             <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4">
                 {product.map(product => (
                     <Productcard key={product._id} product={product} />
