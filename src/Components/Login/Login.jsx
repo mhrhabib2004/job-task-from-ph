@@ -60,7 +60,7 @@ const Login = () => {
     signInWithPopup(auth,provider)
     .then((result)=>{
         // console.log(result);
-        Swal({
+        Swal.fire({
             title: "Welcome",
             text: "You Loged in SuCCessfullY",
             icon: "success",
@@ -70,7 +70,7 @@ const Login = () => {
         navigate(location?.state ? location.state : "/");
     })
     .catch(error=>{
-        Swal({
+        Swal.fire({
             title: "opps",
             text: "Your Email or password worng ",
             icon: "warning",
@@ -79,28 +79,28 @@ const Login = () => {
     })
   }
 
-    const handelGitHubLogin =()=>{
-        signInWithPopup(auth,gitProvider)
-        .then(result=>{
-            Swal({
-                title: "Welcome",
-                text: "You Loged in SuCCessfullY",
-                icon: "success",
-                dangerMode: true,
-              })
+    // const handelGitHubLogin =()=>{
+    //     signInWithPopup(auth,gitProvider)
+    //     .then(result=>{
+    //         Swal({
+    //             title: "Welcome",
+    //             text: "You Loged in SuCCessfullY",
+    //             icon: "success",
+    //             dangerMode: true,
+    //           })
 
-            navigate(location?.state ? location.state : "/");
+    //         navigate(location?.state ? location.state : "/");
 
-        })
-        .catch(error =>{
-            Swal({
-                title: "opps",
-                text: "Your Email or password worng ",
-                icon: "warning",
-                dangerMode: true,
-              })
-        })
-    }
+    //     })
+    //     .catch(error =>{
+    //         Swal({
+    //             title: "opps",
+    //             text: "Your Email or password worng ",
+    //             icon: "warning",
+    //             dangerMode: true,
+    //           })
+    //     })
+    // }
     return (
         <div>
      
@@ -139,13 +139,13 @@ const Login = () => {
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Login</button>
                             </div>
-                            <p>Don't have an account? <Link to={"/Register"} className="btn btn-link">Register</Link></p>
+                            <p>Dont have an account? <Link to={"/Register"} className="btn btn-link">Register</Link></p>
                             < hr />
                             <div className="text-center">OR</div>
                             <hr />
-                            <div className="space-x-2">
+                            <div className="justify-center flex">
                                 <button onClick={handelGooglelogin} className="btn btn-secondary "><FaGoogle/> GOOGLE</button>
-                                <button onClick={handelGitHubLogin} className="btn btn-secondary "><FaGithub /> GIT HUB</button>
+                                {/* <button onClick={handelGitHubLogin} className="btn btn-secondary "><FaGithub /> GIT HUB</button> */}
                             </div>
                         </form>
                     </div>
