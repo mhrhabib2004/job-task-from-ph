@@ -74,11 +74,11 @@ const Products = () => {
                     onChange={handleSearchChange}
                     value={searchTerm}
                     placeholder="Search by product name"
-                    className="p-2 border input-bordered input-secondary rounded w-full max-w-xs mr-4"
+                    className="p-2 border input-bordered input-secondary rounded w-full max-w-xs mr-2"
                 />
                 <button 
                     onClick={handleSearch} 
-                    className="mr-2 btn btn-secondary"
+                    className="mr-1 btn btn-secondary"
                 >
                     Search
                 </button>
@@ -91,7 +91,7 @@ const Products = () => {
             </div>
 
             {/* Sort Controls */}
-            <div className="flex justify-end md:mr-10 mb-4">
+            <div className="flex justify-end mr-5 md:mr-10 mb-4">
                 <select onChange={handleSortChange} className="select select-primary  max-w-xs">
                 <option disabled selected>Sort By</option>
                     <option value="date-desc">Newest First</option>
